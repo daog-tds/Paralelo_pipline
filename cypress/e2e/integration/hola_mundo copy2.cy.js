@@ -8,7 +8,7 @@ describe("Bienvenido al curso de Cypress seccion 1", () =>{
         cy.log("Bienvenido a Cypress")
         cy.visit("https://demoqa.com/text-box")
 
-        cy.get("#wsf-1-field-21").type("Diego")
+        cy.get("#userName").type("Diego")
         cy.wait(2000)
     })
     
