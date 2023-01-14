@@ -12,4 +12,4 @@ describe("Bienvenido al curso de Cypress seccion 1", () =>{
         cy.wait(2000)
     })
     
-})  //<--Cierre de describe
+})  //<--Cierre de descri
